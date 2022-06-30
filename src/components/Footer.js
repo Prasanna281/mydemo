@@ -15,7 +15,7 @@ function Footer() {
     <MDBFooter className='bg-dark text-center text-white'>
       <MDBContainer className='p-4 pb-0'>
         <section className='mb-4'>
-          <a className='btn btn-outline-light btn-floating m-1' href='google.co.in' role='button'>
+          <a className='btn btn-outline-light btn-floating m-1' href='google.com' role='button'>
             <MDBIcon fab icon='facebook-f' />
           </a>
 
