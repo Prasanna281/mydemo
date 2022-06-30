@@ -1,0 +1,61 @@
+@import "react-slideshow-image/dist/styles.css";
+
+h2{
+    color: orange;
+}
+h3{
+    color: blueviolet;
+}
+ 
+.slide-container {
+    direction: ltr;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .each-slide > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: auto;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    height: 300px;
+  }
+  .react-slideshow-container .nav[data-type="prev"] span {
+    margin-left: 5px;
+    border-right: none;
+    border-top: none;
+  }
+  .react-slideshow-container .nav[data-type="next"] span {
+    margin-right: 5px;
+    border-left: none;
+    border-bottom: none;
+  }
+  .each-slide span {
+    padding: 10px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
+  }
+  .each-fade {
+    display: flex;
+  }
+  .each-fade .image-container {
+    width: auto;
+    overflow: hidden;
+  }
+  .each-fade .image-container img {
+    width: 100px;
+  }
+  .each-fade h2 {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background: #adceed;
+  }
+  .react-slideshow-container + div.indicators > div:last-of-type {
+    margin-right: 10px;
+  }  
